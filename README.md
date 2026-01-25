@@ -13,12 +13,12 @@
 - Маяковский Владимир
   
 ### Алгоритм решения:
-Создан класс Name с приватными полями: 
--lastName, firstName, patronymic
+Создан класс Name с приватными полями:
+- lastName, firstName, patronymic
 Реализованы три перегруженных конструктора для разных вариантов создания:
--Только имя: Name(String firstName)
--Имя и фамилия: Name(String lastName, String firstName)
--Все параметры: Name(String lastName, String firstName, String patronymic)
+- Только имя: Name(String firstName)
+- Имя и фамилия: Name(String lastName, String firstName)
+- Все параметры: Name(String lastName, String firstName, String patronymic)
 Метод toString() формирует строковое представление, включая только заданные параметры
 
 Реализованы геттеры и сеттеры для всех полей
